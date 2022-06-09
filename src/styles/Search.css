@@ -1,0 +1,37 @@
+.Search {
+  display: flex;
+  /* position: absolute; */
+  width: 50%;
+  height: 20px;
+  background-color: #fafafa;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.Search__input {
+  width: 100%;
+  height: 100%;
+  padding: 0 10px;
+  margin: 0;
+  border: none;
+  background-color: #fafafa;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #000;
+  outline: none;
+}
+.Search__input:focus {
+  outline: none;
+}
+.Search input,
+select,
+textarea {
+  color: #354259;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.icon img {
+  width: 24px;
+  opacity: 0.4;
+}

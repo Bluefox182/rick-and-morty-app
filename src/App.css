@@ -1,0 +1,63 @@
+button {
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 10px 40px;
+  display: flex;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.button-dark {
+  background-color: #191919;
+  color: white;
+}
+
+.button-light {
+  background-color: #fafafa;
+  color: #8cc0de;
+}
+
+.dark-mode {
+  background-image: linear-gradient(
+    to left top,
+    #413f42,
+    #373436,
+    #2c2a2b,
+    #212020,
+    #171616,
+    #161213,
+    #150e10,
+    #13080d,
+    #180c16,
+    #19111f,
+    #141629,
+    #041c32
+  );
+  transition: 2s;
+  color: white;
+}
+
+.light-mode {
+  background-image: linear-gradient(
+    to right top,
+    #f9f9f9,
+    #fcf5fa,
+    #fff1f3,
+    #ffeee4,
+    #fff0d6,
+    #fff1d4,
+    #fff2d1,
+    #fff3cf,
+    #fff0d7,
+    #ffefe1,
+    #fff0eb,
+    #fff2f2
+  );
+  color: #354259;
+  transition: 2s;
+}
